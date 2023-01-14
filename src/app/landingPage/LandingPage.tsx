@@ -3,6 +3,7 @@ import React, { useEffect, useMemo } from 'react'
 import { rem } from '../../lib/ui/unit'
 import { Font } from '../../lib/ui/font'
 import { TextSize } from '../../lib/ui/textSize'
+import { Spacing } from '../../lib/ui/spacing'
 
 const createStyle = () => {
     return StyleSheet.create({
@@ -24,28 +25,28 @@ const createStyle = () => {
         containerTitle: {
             fontFamily: Font.Black,
             fontSize: TextSize.h4,
-            margin: rem(2)
+            margin: Spacing.xsmall * 4
         },
         noteItemsContainer: {
             flex: 1,
-            alignItems: 'center'
+            alignItems: 'center',
+            marginBottom: Spacing.base
         },
         noteItems: {
             borderRadius: 5,
             width: "90%",
-            padding: rem(1),
+            padding: Spacing.base,
             backgroundColor: "white",
-            marginBottom: rem(0.5)
 
         },
         title: {
             fontFamily: Font.Black,
             fontSize: TextSize.h6,
-            marginBottom: rem(0.5)
+            marginBottom: Spacing.xsmall
         },
         note: {
             fontSize: TextSize.caption
-        }
+        },
     })
 }
 
