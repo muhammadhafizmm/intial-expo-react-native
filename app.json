@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "test-react-native-expo",
-    "slug": "test-react-native-expo",
+    "name": "initial-expo-react-native",
+    "slug": "initial-expo-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/diary.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
